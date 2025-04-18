@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Watch Empire</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+    }
+    header {
+      background: black;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+      font-size: 2rem;
+      text-align: center;
+    }
+    .catalogo {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .producto {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .producto h3 {
+      margin: 0.5rem 0;
+    }
+    .producto p {
+      padding: 0 1rem;
+    }
+    .boton-wsp {
+      display: inline-block;
+      margin: 1rem auto;
+      background: #25d366;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Watch Empire</h1>
+  </header>
+
+  <section class="hero">
+    <div>Descubre la elegancia en cada segundo</div>
+  </section>
+
+  <section class="catalogo">
+    <div class="producto">
+      <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="Reloj 1">
+      <h3>Reloj Clásico</h3>
+      <p>$120 USD</p>
+      <a class="boton-wsp" href="https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20Reloj%20Clásico">Pedir por WhatsApp</a>
+    </div>
+
+    <div class="producto">
+      <img src="https://images.unsplash.com/photo-1519744792095-2f2205e87b6f" alt="Reloj 2">
+      <h3>Reloj Moderno</h3>
+      <p>$180 USD</p>
+      <a class="boton-wsp" href="https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20Reloj%20Moderno">Pedir por WhatsApp</a>
+    </div>
+    
+    <!-- Puedes duplicar esta tarjeta para agregar más relojes -->
+  </section>
+
+  <footer>
+    &copy; 2025 Watch Empire. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
