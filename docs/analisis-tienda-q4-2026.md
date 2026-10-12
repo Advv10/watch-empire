@@ -25,7 +25,7 @@ _Análisis del 12/10/2026 con datos en vivo de Shopify (plan Basic, EUR, mercado
 1. **El tráfico se cayó y no convierte.** De 1.064 sesiones en septiembre, 175 "llegaron al checkout" pero sólo hay 6 checkouts abandonados reales: la mayoría es tráfico de bots (EE. UU./Irlanda/Suecia "direct", con el mercado de EE. UU. desactivado). Tráfico humano real hoy ≈ casi cero → **falta adquisición** (ads/orgánico) desde que paró en agosto.
 2. **Cambio de mercado sin tráfico nuevo.** Las ventas venían de Francia; la tienda se ha pasado a español/España (6/10). Aún quedan textos en francés (p. ej. "CASSIS | Ensemble ample top et pantalon…" en checkouts). Decidir: ¿España, Francia o ambos? (Shopify Markets permite los dos idiomas.)
 3. **Catálogo de verano en pleno otoño.** De 654 activos, **~252 son sandalias/peep toes/cuñas** y las colecciones destacadas son *Verano, Vacaciones, Noches de Verano, Bikinis, Bañadores*. Para invierno sólo hay ~2 botas/botines, ~4 chaquetas/abrigos, ~8 de punto y ~11 de fiesta (lentejuelas/satén).
-4. **Colecciones rotas.** *Accesorios* tiene 0 productos y *Lencería* muestra 48 pero sólo ~2 activos coinciden: sus reglas buscan palabras en francés (`collier`, `bracelet`, `soutien-gorge`…) y los títulos ya están en español. *Zapatos* (259) y *Sandalias* (255) son prácticamente la misma colección.
+4. **Colecciones rotas.** *Accesorios* tenía 0 productos: sus reglas buscaban palabras en francés (`collier`, `bracelet`…) y los títulos ya están en español (✅ corregido el 12/10, ahora 29 productos). *Lencería* sí funciona (48 conjuntos, coinciden por "tanga"). *Zapatos* (259) y *Sandalias* (255) son prácticamente la misma colección.
 5. **630 de 654 productos sin categoría de Shopify** → peor Google Shopping / Meta catalog, sin filtros, impuestos por categoría.
 6. **Descuentos acumulables demasiado agresivos.** 2 uds −10 %, 3 −15 %, 4 −20 % + 10 % bienvenida, todos sin fecha de fin. En agosto se regaló el 22 % de la facturación; si se suma un −30 % de Black Friday el margen desaparece.
 7. **Repo `watch-empire`** es una landing de relojes antigua (WhatsApp con número de ejemplo `1234567890`, © 2025) sin relación con ELEGA. No afecta a la tienda, pero conviene archivarla o reconvertirla.
@@ -49,14 +49,16 @@ _Análisis del 12/10/2026 con datos en vivo de Shopify (plan Basic, EUR, mercado
 - [ ] Decidir mercado principal (ES / FR / ambos) y terminar la traducción de títulos y descripciones restantes.
 - [ ] Hacer un **pedido de prueba real** de principio a fin (pago, email de confirmación, envío) en el tema publicado.
 - [ ] Filtrar bots: excluir tráfico de EE. UU./"direct" en informes; revisar si hay alguna app o script generando visitas.
-- [ ] Arreglar reglas de *Lencería* y *Accesorios* (palabras en español) o despublicarlas; fusionar *Zapatos*/*Sandalias*.
+- [x] Arreglar reglas de *Accesorios* (12/10: reglas en español, 29 productos).
+- [ ] Fusionar *Zapatos*/*Sandalias* y añadir las nuevas colecciones al menú del tema.
 - [ ] Asignar categoría de producto en bloque (edición masiva en el admin) a los 630 productos.
 - [ ] Revisar márgenes y **poner fecha de fin / límite** a los descuentos por volumen; definir cuál será la oferta de BF.
 
 ### B. Catálogo otoño-invierno (antes del 9/11)
 - [ ] Bajar de portada Verano/Vacaciones/Bikinis; mover las sandalias a una colección "Últimas tallas -X %" para liquidar.
 - [ ] Añadir 30–60 referencias de temporada: abrigos, chaquetas, punto, botas/botines, y **conjuntos** (lo que ya vende).
-- [ ] Crear colecciones: *Otoño-Invierno*, *Fiesta & Nochevieja*, *Ideas para regalar*, *Black Friday*.
+- [x] Crear colecciones *Otoño-Invierno* (19 productos, manual), *Fiesta y Nochevieja* (9, manual) e *Ideas para regalar* (automática: pulseras, collares, bolsos, bufandas, lencería). Creadas el 12/10.
+- [ ] Colección *Black Friday* (cuando se decida la oferta) y fotos de portada para las tres nuevas.
 - [ ] Activar tarjetas regalo.
 - [ ] Nuevas fotos/banners de temporada (Higgsfield ya se usa para las imágenes de colección).
 
