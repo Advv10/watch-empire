@@ -76,3 +76,20 @@ _Análisis del 12/10/2026 con datos en vivo de Shopify (plan Basic, EUR, mercado
 ## 5. Objetivo propuesto para Q4
 
 Con ~88 € de ticket medio y 1–1,5 % de conversión (realista para moda con tráfico pagado), **100 pedidos ≈ 8.800 €** requieren ~7.000–10.000 sesiones humanas en el trimestre. El cuello de botella no es la tienda: es **tráfico + catálogo de temporada**.
+
+## 6. Rediseño de la home (12/10/2026) — tema borrador
+
+Tema sin publicar **"ELEGA - Home editorial (borrador)"** (copia de "elega ES - 30 dias"), inspirado en la home de alliwant.es.
+Vista previa: https://elega.store/?preview_theme_id=202809803099
+
+- **Menú nuevo "Menú editorial"** (solo lo usa el borrador): LUMIÈRE (granate) · Colecciones ▾ · Novedades · Prendas ▾ · Zapatos y accesorios ▾ · Últimas tallas. Mayúsculas espaciadas, centrado, cabecera blanca.
+- **Home, de arriba abajo:**
+  1. Portada a pantalla completa "LUMIÈRE · Otoño-Invierno 26" con foto de campaña generada (GABRIELLE + MILANO).
+  2. Nuestras colecciones: Otoño-Invierno, Fiesta y Nochevieja, Ideas para regalar (con fotos de portada asignadas).
+  3. Lo nuevo · LUMIÈRE (carrusel de Otoño-Invierno).
+  4. Banner "FIESTA · Navidad · Cenas · Nochevieja" con foto generada (SÉRAPHINE).
+  5. Los más vendidos.
+  6. Compra por prenda (Vestidos, Conjuntos, Tops y chaquetas, Zapatos, Accesorios, Lencería).
+  7. Precios especiales · Últimas tallas.
+  8. Nuestra historia · Instagram · Compra con tranquilidad.
+- Pendiente: revisar en vista previa (móvil y escritorio), pop-up "10 % de regalo" (Shopify Forms/Klaviyo) y publicar desde Tienda online → Temas.
