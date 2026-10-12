@@ -93,3 +93,13 @@ Vista previa: https://elega.store/?preview_theme_id=202809803099
   7. Precios especiales · Últimas tallas.
   8. Nuestra historia · Instagram · Compra con tranquilidad.
 - Pendiente: revisar en vista previa (móvil y escritorio), pop-up "10 % de regalo" (Shopify Forms/Klaviyo) y publicar desde Tienda online → Temas.
+
+## 7. Enfoque España (12/10/2026)
+
+Decisiones: mercado principal **España**; UE se mantiene abierta por si entra alguna venta; Canarias/Ceuta/Melilla sin cambios.
+
+- **Envíos:** eliminada la opción duplicada "Envio Gratis" (en el checkout salían dos envíos gratis iguales). Queda "Envío gratis — Seguimiento y envío asegurado".
+- **URLs de producto en español:** 514 fichas pasaron de URLs en francés (`/products/robe-longue-…`, `echarpe-…`, `bracelet-…`, `sandales-…`) a español (`/products/chloe-bufanda-suave-y-gruesa-negra-con-flecos-largos`), todas con **redirección 301** automática desde la URL antigua (no se rompe ningún enlace).
+- **Otoño-Invierno:** +12 productos (11 bufandas y el bolso de borreguito) → 31. **Accesorios** incluye ahora bufandas → 41.
+- **Barra de anuncios (tema borrador):** "Envío gratis a toda España" · "Devoluciones en 30 días" · descuentos por cantidad.
+- Pendiente (tú): activar **Bizum** y **Klarna** en Ajustes → Pagos.
